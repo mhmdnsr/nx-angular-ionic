@@ -78,6 +78,13 @@
         "buildTarget": "mobile:build",
         "staticFilePath": "dist/apps/mobile/browser"
       }
+    },
+    "ionic": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "ionic",
+        "cwd": "apps/mobile"
+      }
     }
   }
 }
