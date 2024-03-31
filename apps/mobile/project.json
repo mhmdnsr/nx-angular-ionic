@@ -85,6 +85,13 @@
         "command": "ionic",
         "cwd": "apps/mobile"
       }
+    },
+    "cap": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npx cap",
+        "cwd": "apps/mobile"
+      }
     }
   }
 }

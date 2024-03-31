@@ -1,5 +1,7 @@
 {
   "name": "angular-ionic-poc",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular-standalone"
 }
